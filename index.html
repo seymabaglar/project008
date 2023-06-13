@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="shortcut icon" href="./img/icons8-spotify-500 (1).png" type="image/x-icon">
+    <title>Spotify</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#premium">Premium</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#listeler">Listeler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#destek">Destek</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sosyal">Hakkımızda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#indir">İndir</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/üç.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/dört.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide4.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <main class="text-center">
+      <section id="premium" class="container-fuild p-3">
+        <h2 class="baslik">Premium</h2>
+        <p class="prg">
+          Neden Premium'a Geçmeliyiz?
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-6 col-lg-3" id="font">
+            <i class="fas fa-music fa-6x" style="color: #000000;"></i>
+            <h3>Müzik İndir!</h3>
+            <p>İstediğin zaman, istediğin yerde dinle.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3" id="font">
+            <i class="fas fa-list-check fa-6x" style="color: #000000;"></i>
+            <h3>İstediğin Sırada Çal!</h3>
+            <p>İstediğin Şarkıyı İstediğin Sırada Çal.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3" id="font">
+            <i class="fas fa-circle-exclamation fa-6x" style="color: #000000;"></i>
+            <h3>Reklamsız Müzik Dinle!</h3>
+            <p>Kesintisiz müziğin keyfini çıkar.</p>
+          </div>
+        </div>
+      </section>
+      <section id="listeler" class="container p-3">
+        <h2 class="baslik">Listeler</h2>
+        <p class="prg">
+          Favori Sanatçılarınıza Ait Olan Şarkı Listelerini Dinleyebilirsiniz!
+        </p>
+        <div class="row mb-4">
+          <div class="col-md-4" id="class-h">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/lanadelrey.jpg"  alt="lana">
+              <div class="card-body">
+                <h5 class="card-title">LANA DEL REY</h5>
+                <p class="card-text">Elizabeth Woolridge Grant veya sahne adıyla Lana Del Rey, Amerikalı şarkıcı ve söz yazarıdır. </p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DX3XuY09ikg3x" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/chrisbrown.jpg" alt="chris">
+              <div class="card-body">
+                <h5 class="card-title">CHRIS BROWN</h5>
+                <p class="card-text">Chris Brown Amerikalı şarkıcı, söz yazarı, rapçi, dansçı ve oyuncudur.</p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO4fRiko" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/p!nk.jpg" alt="p!nk">
+              <div class="card-body">
+                <h5 class="card-title">P!NK</h5>
+                <p class="card-text">Alecia Beth Moore, 3 Grammy Ödülü sahibi Amerikalı şarkıcı ve söz yazarıdır.</p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DWWm77sje6VSB" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/drake.jpg" alt="drake">
+              <div class="card-body">
+                <h5 class="card-title">DRAKE</h5>
+                <p class="card-text">Aubrey Drake Graham, Kanadalı müzisyendir. Drake sahne adını kullanmaktadır.</p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DX7QOv5kjbU68" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/celinedion.jpg" alt="celine">
+              <div class="card-body">
+                <h5 class="card-title">CELINE DION</h5>
+                <p class="card-text">Céline Marie Claudette Dion, Kanadalı şarkıcı ve iş insanıdır.</p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2RkFc4" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4">
+            <div class="card" style="width: 24rem;">
+              <img src="./img/theweeknd.jpg" alt="weekend">
+              <div class="card-body">
+                <h5 class="card-title">THE WEEKEND</h5>
+                <p class="card-text">Abel Makkonen Tesfaye, Kanadalı şarkıcı, söz yazarı, prodüktör ve aktördür.</p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DX6bnzK9KPvrz" target="_blank" class="btn btn-outline-dark">Listeye Git</a>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div></section>
+        <section id="destek" class="container p-3">
+          <h2 class="baslik">Destek</h2>
+          <p class="prg">
+            Size Nasıl Yardımcı Olabiliriz?
+          </p>
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <p class="destek-p">Parolayı sıfırlayamıyorum.</p>
+              <p class="destek-p">Oturum açma bilgilerini hatırlamıyorum.</p>
+              <p class="destek-p">Facebook'la oturum açma konusunda yardım.</p>
+              <p class="destek-p">Premium Aile'yi başlat veya plana katıl.</p>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/about.jpg" class="about-img" alt="">
+            </div>
+          </div></section>
+          <section id="sosyal" class="container p-3">
+            <h2 class="baslik">Hakkımızda</h2>
+            <p class="prg">
+              Sosyal Medya Hesaplarımızı Ziyaret Edebilirsin.
+            </p><br><br>
+              <div class="row justify-content-center">
+                <div class="col-12 col-md-6 col-lg-3" id="social">
+                  <a href="https://www.instagram.com/spotify/" target="_blank"><i class="fab fa-instagram fa-10x" style="color: #000000;"></i></a>
+                  <h3 class="medya">INSTAGRAM</h3>
+                  
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="social">
+                  <a href="https://twitter.com/spotify"   target="_blank"><i class="fab fa-twitter fa-10x" style="color: #000000;"></i></a>
+                  <h3 class="medya">TWITTER</h3>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3" id="social">
+                  <a href="https://www.facebook.com/Spotify" target="_blank"><i class="fab fa-facebook fa-10x" style="color: #000000;"></i></a>
+                  <h3 class="medya">FACEBOOK</h3>
+                </div>
+              </div>
+            </section><br><br>
+            <section id="indir" class="container-fluid p-3">
+              <h2 class="baslik text-light">İndir</h2>
+              <p class="prg text-light">
+                Müziğini Cep Telefonuna ve Tablete de Taşı.
+              </p>
+              <div class="row align-items-center">
+                <div class="col-md-12">
+                  <form>
+                    <div class="mb-3">
+                      
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Kullanıcı Adı">
+                     
+                    </div>
+                    <div class="mb-3">
+                      
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Şifre">
+                    </div>
+                   
+                    <div class="mb-3">
+                      
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Hesabı">
+                     
+                    </div>
+                    <div>
+                      <a href="#" target="_blank" class="btn btn-dark">KAYIT OL</a>
+                    </div>
+                    </form>
+                  </div>
+                  </div>
+              </section>
+            
+
+    </main>
+    <footer>
+      <div class="container text-center" id="footer">
+        © 2023 Spotify AB
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
