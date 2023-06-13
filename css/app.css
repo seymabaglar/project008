@@ -1,87 +1,97 @@
 :root {
-    --color2: #000000;
-  }
-  .logo img {
-    width: 100%;
-    max-width: 100px;
-    z-index: 999;
-  }
-  .navbar-nav .nav-link {
-    font-weight: 600;
-    color: rgba(195, 190, 181, 0.675);
-  }
-  .navbar-nav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.758);
-  }
-  .carousel-item {
-    max-height: calc(100vh - 55px);
-  }
-  .baslik {
-    color: var(--color2);
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: 2rem;
-  }
-  .prg {
-    color: var(--color2);
-  }
-  h3 {
-    color: black;
-    margin-top: 1rem;
-  }
-  h5 {
-    font-weight: 600;
-    letter-spacing: 4px;
-    color: #000000;
-  }
-  p {
-    color: black;
-    font-weight: 500;
-  }
-  .btn:hover{
-      width: 100%;
-      transition: all ease 1.5s;
-      
-  }
-  img{
-      border-radius: 10px;
-  }
-  .destek-p {
-    text-align: left;
-    font-size: 25px;
-  }
-  .destek-p:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  #font {
-    padding-top: 2rem;
-  }
-  .about-img {
-    width: 600px;
-    height: 330px;
-    opacity: 0.7;
-  }
-  .about-img:hover{
-      opacity: 1;
-      transition: all ease 0.5s;
-  }
-  #photo {
-    height: 220px;
-    width: 220px;
-    border: 10px solid #cccccc;
-    margin-top: 2rem;
-  }
-  #indir {
-    background-image: url(/img/contact.jpg);
-  }
-  #button {
-    width: 150px;
-  }
-  #footer {
-    padding: 48px 16px 48px 16px;
-    margin: 0 100px 0 100px;
-  }
-  #social:hover .medya{
-      text-decoration: underline;
-  }
+  --color2: #000000;
+}
+body {
+  background: rgb(25, 157, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(25, 157, 60, 1) 16%,
+    rgba(141, 198, 82, 1) 30%,
+    rgba(199, 223, 97, 1) 51%,
+    rgba(141, 198, 82, 1) 70%,
+    rgba(25, 157, 60, 1) 83%
+  );
+}
+.logo img {
+  width: 100%;
+  max-width: 100px;
+  z-index: 999;
+}
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: rgba(195, 190, 181, 0.675);
+}
+.navbar-nav .nav-link:hover {
+  color: rgba(255, 255, 255, 0.758);
+}
+.carousel-item {
+  max-height: calc(100vh - 55px);
+}
+.baslik {
+  color: var(--color2);
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.prg {
+  color: var(--color2);
+}
+h3 {
+  color: black;
+  margin-top: 1rem;
+}
+h5 {
+  font-weight: 600;
+  letter-spacing: 4px;
+  color: #000000;
+}
+p {
+  color: black;
+  font-weight: 500;
+}
+.btn:hover {
+  width: 100%;
+  transition: all ease 1.5s;
+}
+img {
+  border-radius: 10px;
+}
+.destek-p {
+  text-align: left;
+  font-size: 25px;
+}
+.destek-p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+#font {
+  padding-top: 2rem;
+}
+.about-img {
+  width: 600px;
+  height: 330px;
+  opacity: 0.7;
+}
+.about-img:hover {
+  opacity: 1;
+  transition: all ease 0.5s;
+}
+#photo {
+  height: 220px;
+  width: 220px;
+  border: 10px solid #cccccc;
+  margin-top: 2rem;
+}
+#indir {
+  background-image: url(/img/contact.jpg);
+}
+#button {
+  width: 150px;
+}
+#footer {
+  padding: 48px 16px 48px 16px;
+  margin: 0 100px 0 100px;
+}
+#social:hover .medya {
+  text-decoration: underline;
+}
