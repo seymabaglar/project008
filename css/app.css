@@ -83,7 +83,7 @@ img {
   margin-top: 2rem;
 }
 #indir {
-  background-image: url(/img/contact.jpg);
+  background-image: url(../img/contact.jpg);
 }
 #button {
   width: 150px;
